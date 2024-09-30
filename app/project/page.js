@@ -34,20 +34,20 @@ export default function Project() {
 								<div className="flex justify-normal items-center gap-3 mt-3">
 									<p>Technologies:</p>
 									<span>
-										<Image src={react}></Image>
+										<Image src={react} alt="tech"></Image>
 									</span>
 									<span>
-										<Image src={tailwind}></Image>
+										<Image src={tailwind} alt="tech"></Image>
 									</span>
 								</div>
 							</div>
 						</div>
 						<div className="absolute w-full h-full top-0 right-0 rounded-xl opacity-0 hover:opacity-100 transition-opacity duration-500 ease-in flex justify-around items-center">
 							<a href="https://github.com/mkhantk/ecom" target="blank">
-								<Image src={github} width={40}></Image>
+								<Image src={github} width={40} alt="links"></Image>
 							</a>
 							<a href="https://mkhantk.github.io/ecom" target="blank">
-								<Image src={external} width={40}></Image>
+								<Image src={external} width={40} alt="links"></Image>
 							</a>
 						</div>
 					</div>
@@ -69,10 +69,10 @@ export default function Project() {
 								<div className="flex justify-normal items-center gap-3 mt-3">
 									<p>Technologies:</p>
 									<span>
-										<Image src={react}></Image>
+										<Image src={react} alt="tech"></Image>
 									</span>
 									<span>
-										<Image src={tailwind}></Image>
+										<Image src={tailwind} alt="tech"></Image>
 									</span>
 								</div>
 							</div>
@@ -80,10 +80,10 @@ export default function Project() {
 
 						<div className="absolute w-full h-full top-0 right-0 rounded-xl opacity-0 hover:opacity-100 transition-opacity duration-500 ease-in flex justify-around items-center ">
 							<a href="https://github.com/mkhantk/movie-wizard" target="blank">
-								<Image src={github} width={40}></Image>
+								<Image src={github} width={40} alt="links"></Image>
 							</a>
 							<a href="https://mkhantk.github.io/movie-wizard" target="blank">
-								<Image src={external} width={40}></Image>
+								<Image src={external} width={40} alt="links"></Image>
 							</a>
 						</div>
 					</div>
@@ -105,10 +105,10 @@ export default function Project() {
 								<div className="flex justify-normal items-center gap-3 mt-3">
 									<p>Technologies:</p>
 									<span>
-										<Image src={react}></Image>
+										<Image src={react} alt="tech"></Image>
 									</span>
 									<span>
-										<Image src={tailwind}></Image>
+										<Image src={tailwind} alt="tech"></Image>
 									</span>
 								</div>
 							</div>
@@ -118,13 +118,13 @@ export default function Project() {
 								href="https://github.com/mkhantk/markdown-previewer"
 								target="blank"
 							>
-								<Image src={github} width={40}></Image>
+								<Image src={github} width={40} alt="links"></Image>
 							</a>
 							<a
 								href="https://mkhantk.github.io/markdown-previewer"
 								target="blank"
 							>
-								<Image src={external} width={40}></Image>
+								<Image src={external} width={40} alt="links"></Image>
 							</a>
 						</div>
 					</div>
@@ -143,10 +143,10 @@ export default function Project() {
 								<div className="flex justify-normal items-center gap-3 mt-3">
 									<p>Technologies:</p>
 									<span>
-										<Image src={react}></Image>
+										<Image src={react} alt="tech"></Image>
 									</span>
 									<span>
-										<Image src={tailwind}></Image>
+										<Image src={tailwind} alt="tech"></Image>
 									</span>
 								</div>
 							</div>
@@ -156,13 +156,13 @@ export default function Project() {
 								href="https://github.com/mkhantk/react-calculator"
 								target="blank"
 							>
-								<Image src={github} width={40}></Image>
+								<Image src={github} width={40} alt="links"></Image>
 							</a>
 							<a
 								href="https://mkhantk.github.io/react-calculator/"
 								target="blank"
 							>
-								<Image src={external} width={40}></Image>
+								<Image src={external} width={40} alt="links"></Image>
 							</a>
 						</div>
 					</div>

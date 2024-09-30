@@ -20,19 +20,19 @@ export default function Home() {
 				</section>
 				<div className="flex gap-10 p-10">
 					<Link href="https://github.com/mkhantk/" target="blank">
-						<Image src={github}></Image>
+						<Image src={github} alt="social-icon"></Image>
 					</Link>
 					<Link
 						href="https://www.linkedin.com/in/min-khant-kyaw-4648432b2"
 						target="blank"
 					>
-						<Image src={linkedin}></Image>
+						<Image src={linkedin} alt="social-icon"></Image>
 					</Link>
 					<Link href="https://t.me/mkhantk" target="blank">
-						<Image src={telegram}></Image>
+						<Image src={telegram} alt="social-icon"></Image>
 					</Link>
 					<Link href="https://x.com/mkhantk_" target="blank">
-						<Image src={x}></Image>
+						<Image src={x} alt="social-icon"></Image>
 					</Link>
 				</div>
 			</main>

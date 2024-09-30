@@ -47,7 +47,7 @@ export default function NavBar() {
 				</div>
 				<div className="sm:hidden ml-auto">
 					<button onClick={handleClick} className="pointer-events-auto">
-						<Image src={isOpen ? cross : bars} alt="toggle"></Image>
+						<Image src={isOpen ? cross : bars} alt=""></Image>
 					</button>
 				</div>
 			</div>

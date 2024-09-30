@@ -39,11 +39,11 @@ export default function About() {
 				</p>
 				<div className="flex justify-center items-center gap-5 text-xl">
 					<span className="">My go-to techs are</span>
-					<Image src={html} alt="tech-icon"></Image>
-					<Image src={css} alt="tech-icon"></Image>
-					<Image src={js} alt="tech-icon"></Image>
-					<Image src={react} alt="tech-icon"></Image>
-					<Image src={tailwind} alt="tech-icon"></Image>
+					<Image src={html} alt=""></Image>
+					<Image src={css} alt=""></Image>
+					<Image src={js} alt=""></Image>
+					<Image src={react} alt=""></Image>
+					<Image src={tailwind} alt=""></Image>
 				</div>
 			</section>
 		</div>

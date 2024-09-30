@@ -11,7 +11,7 @@ export default function Home() {
 			<main className="flex flex-col justify-center items-center gap-5 h-full">
 				<section className="">
 					<p className="text-7xl font-bold sm:text-center py-5 sm:p-10 flex flex-col lg:flex-row gap-5">
-						Hi, I'm
+						Hi, I&apos;m
 						<span className="text-cyan-500"> Min Khant Kyaw.</span>
 					</p>
 					<p className="text-2xl font-semibold sm:text-center mt-2">
@@ -20,19 +20,19 @@ export default function Home() {
 				</section>
 				<div className="flex gap-10 p-10">
 					<Link href="https://github.com/mkhantk/" target="blank">
-						<Image src={github} alt="social-icon"></Image>
+						<Image src={github} alt=""></Image>
 					</Link>
 					<Link
 						href="https://www.linkedin.com/in/min-khant-kyaw-4648432b2"
 						target="blank"
 					>
-						<Image src={linkedin} alt="social-icon"></Image>
+						<Image src={linkedin} alt=""></Image>
 					</Link>
 					<Link href="https://t.me/mkhantk" target="blank">
-						<Image src={telegram} alt="social-icon"></Image>
+						<Image src={telegram} alt=""></Image>
 					</Link>
 					<Link href="https://x.com/mkhantk_" target="blank">
-						<Image src={x} alt="social-icon"></Image>
+						<Image src={x} alt=""></Image>
 					</Link>
 				</div>
 			</main>

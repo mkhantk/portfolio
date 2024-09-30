@@ -2,26 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+html {
+	@apply scroll-smooth;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+	@apply text-neutral-200 bg-neutral-900;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+#ecom:hover .blur-content {
+	@apply blur-[3px];
+}
+
+#mw:hover .blur-content {
+	@apply blur-[3px];
+}
+#markdown:hover .blur-content {
+	@apply blur-[3px];
+}
+#rc:hover .blur-content {
+	@apply blur-[3px];
+}
+
+.current-color {
+	color: #ec4899;
+}
+
+/* .hide {
+	@apply hidden;
+} */
+/* .clear {
+	@apply bg-transparent pointer-events-none;
+} */
+
+.show {
+	@apply opacity-100 transition-opacity duration-300 ease-in-out;
 }

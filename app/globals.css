@@ -3,28 +3,34 @@
 @tailwind utilities;
 
 html {
-	@apply scroll-smooth;
+    @apply scroll-smooth;
 }
 body {
-	@apply text-neutral-200 bg-neutral-900;
+    @apply text-neutral-200 bg-neutral-900;
 }
 
 #ecom:hover .blur-content {
-	@apply blur-[3px];
+    @apply blur-[3px];
 }
 
 #mw:hover .blur-content {
-	@apply blur-[3px];
+    @apply blur-[3px];
 }
 #markdown:hover .blur-content {
-	@apply blur-[3px];
+    @apply blur-[3px];
 }
 #rc:hover .blur-content {
-	@apply blur-[3px];
+    @apply blur-[3px];
+}
+#loop:hover .blur-content {
+    @apply blur-[3px];
+}
+#prodList:hover .blur-content {
+    @apply blur-[3px];
 }
 
 .current-color {
-	color: #ec4899;
+    color: #ec4899;
 }
 
 /* .hide {
@@ -35,5 +41,5 @@ body {
 } */
 
 .show {
-	@apply opacity-100 transition-opacity duration-300 ease-in-out;
+    @apply opacity-100 transition-opacity duration-300 ease-in-out;
 }
